@@ -4,8 +4,8 @@ import json
 import sys
 
 # Setup
-NOTION_KEY = open('/root/.config/notion/api_key').read().strip()
-ROOT_PAGE_ID = "3063bbb4ddab80c1bad5c1900ec5e71b"
+NOTION_KEY = "ВАШ КЛЮЧ API NOTION"
+ROOT_PAGE_ID = "ID страницы Notion для сохранения результата"
 HEADERS = {
     "Authorization": f"Bearer {NOTION_KEY}",
     "Notion-Version": "2022-06-28",
